@@ -7,7 +7,7 @@ export const projectsData = [
     // Imagen en miniatura para la tarjeta (puede ser del video)
     imageUrl: "https://i.ytimg.com/vi/gOWlUugPhOk/maxresdefault.jpg", 
     media: [
-      { type: 'youtube', src: 'https://www.youtube.com/embed/gOWlUugPhOk' },
+      { type: 'video', src: 'https://res.cloudinary.com/du8qatyzh/video/upload/eventop_urbhtl.mp4' },
       { type: 'image', src: 'https://placehold.co/1280x720/1a1a1a/ff69b4?text=Eventop+Screenshot+1' },
       { type: 'image', src: 'https://placehold.co/1280x720/1a1a1a/ff69b4?text=Eventop+Screenshot+2' }
     ],
