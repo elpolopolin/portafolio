@@ -4,7 +4,6 @@ export const projectsData = [
     title: "Eventop - Event Management",
     year: 2023,
     introduction: "A web application developed for comprehensive event management.",
-    // Imagen en miniatura para la tarjeta (puede ser del video)
     imageUrl: "https://i.ytimg.com/vi/gOWlUugPhOk/maxresdefault.jpg", 
     media: [
       { type: 'video', src: 'https://res.cloudinary.com/du8qatyzh/video/upload/eventop_urbhtl.mp4' },
@@ -62,7 +61,9 @@ export const projectsData = [
         { type: 'image', src: 'https://res.cloudinary.com/du8qatyzh/image/upload/v1753148238/intestinoBack_vdqkvq.jpg' } 
     ],
     description: `
-      A blog-style web platform for publishing opinion and analysis articles on politics, philosophy, and social issues. It includes an administration system (back-office) to create, edit, and delete articles, manage authors, and moderate content.<br/><br/>
+      A blog-style web platform for publishing opinion and analysis articles on politics, philosophy, and social issues. It includes an administration system (back-office) to create, edit, and delete articles, manage authors, and moderate content.
+      this project is not finished yet and its official Git repository is private.
+      <br/><br/>
       <strong>Key Functionalities:</strong>
       <ul>
         <li>Public view of articles with a clean, responsive design</li>
