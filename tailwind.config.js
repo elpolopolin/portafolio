@@ -4,18 +4,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // Nueva paleta de colores más moderna y luminosa
       colors: {
-        'background': '#111827', // Un gris azulado oscuro en lugar de negro puro
-        'surface': '#1F2937',    // Un gris ligeramente más claro para las superficies como las tarjetas
-        'primary': '#EC4899',    // Un rosa vibrante (fluo)
-        'primary-hover': '#F472B6', // Un rosa más claro para el hover
-        'secondary': '#6B7280',  // Un gris medio para texto secundario
-        'accent': '#A855F7',     // Un acento violeta para complementar
-        'text-main': '#F9FAFB',  // Texto principal casi blanco
-        'text-light': '#D1D5DB', // Texto secundario más claro
+        'background': '#111827', 
+        'surface': '#1F2937',   
+        'primary': '#EC4899',    
+        'primary-hover': '#F472B6',
+        'secondary': '#6B7280',
+        'accent': '#A855F7',     
+        'text-main': '#F9FAFB',  
+        'text-light': '#D1D5DB', 
       },
-      // Definición de animaciones personalizadas
       keyframes: {
         fadeInUp: {
           '0%': { opacity: '0', transform: 'translateY(20px)' },
@@ -30,7 +28,6 @@ module.exports = {
             '100%': { backgroundPosition: '100% 50%' },
         }
       },
-      // Asignación de las animaciones para poder usarlas con `animate-`
       animation: {
         'fade-in-up': 'fadeInUp 0.5s ease-out forwards',
         'scale-in': 'scaleIn 0.3s ease-out forwards',
