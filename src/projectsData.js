@@ -1,6 +1,34 @@
 export const projectsData = [
-  {
+   {
     id: 1,
+    title: "INTESTINO - Blog & Back-Office",
+    year: 2025,
+    introduction: "A blog platform for publishing articles on politics and philosophy.",
+    imageUrl: "https://res.cloudinary.com/du8qatyzh/image/upload/v1753148224/intestino_ymykhq.jpg",
+     media: [
+        { type: 'image', src: 'https://res.cloudinary.com/du8qatyzh/image/upload/v1753148224/intestino_ymykhq.jpg' },
+        { type: 'image', src: 'https://res.cloudinary.com/du8qatyzh/image/upload/v1753148220/intestino12_r8b5rw.jpg' },
+        { type: 'image', src: 'https://res.cloudinary.com/du8qatyzh/image/upload/v1753148231/sfdk_qwqyke.jpg' },
+        { type: 'image', src: 'https://res.cloudinary.com/du8qatyzh/image/upload/v1754503106/Proyecto_nuevo_3_negxms.jpg' },
+        { type: 'image', src: 'https://res.cloudinary.com/du8qatyzh/image/upload/v1753148238/intestinoBack_vdqkvq.jpg' } 
+    ],
+    description: `
+      A blog-style web platform for publishing opinion and analysis articles on politics, philosophy, and social issues. It includes an administration system (back-office) to create, edit, and delete articles, manage authors, and moderate content.
+      this project is not finished yet and its official Git repository is private.
+      <br/><br/>
+      <strong>Key Functionalities:</strong>
+      <ul>
+        <li>Public view of articles with a clean, responsive design</li>
+        <li>Administrator panel protected by login</li>
+        <li>CRUD operations for articles and author management</li>
+        <li>Organization of articles by categories or tags</li>
+        <li>Search engine by title or content</li>
+      </ul>
+    `,
+    technologies: ["Next.js", "Node.js", "Express.js", "EJS", "JWT"]
+  },
+  {
+    id: 2,
     title: "Eventop - Event Management",
     year: 2023,
     introduction: "A web application developed for comprehensive event management.",
@@ -24,7 +52,7 @@ export const projectsData = [
     technologies: ["React", "Node.js", "Express", "Microsoft SQL Server", "Tailwind CSS"]
   },
   {
-    id: 2,
+    id: 3,
     title: "Tennis Academy Back-Office",
     year: 2024,
     introduction: "Internal web system for managing a tennis academy's operations.",
@@ -47,32 +75,5 @@ export const projectsData = [
       </ul>
     `,
     technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "MongoDB", "JWT"]
-  },
-  {
-    id: 3,
-    title: "INTESTINO - Blog & Back-Office",
-    year: 2025,
-    introduction: "A blog platform for publishing articles on politics and philosophy.",
-    imageUrl: "https://res.cloudinary.com/du8qatyzh/image/upload/v1753148224/intestino_ymykhq.jpg",
-     media: [
-        { type: 'image', src: 'https://res.cloudinary.com/du8qatyzh/image/upload/v1753148224/intestino_ymykhq.jpg' },
-        { type: 'image', src: 'https://res.cloudinary.com/du8qatyzh/image/upload/v1753148220/intestino12_r8b5rw.jpg' },
-        { type: 'image', src: 'https://res.cloudinary.com/du8qatyzh/image/upload/v1753148231/sfdk_qwqyke.jpg' },
-        { type: 'image', src: 'https://res.cloudinary.com/du8qatyzh/image/upload/v1753148238/intestinoBack_vdqkvq.jpg' } 
-    ],
-    description: `
-      A blog-style web platform for publishing opinion and analysis articles on politics, philosophy, and social issues. It includes an administration system (back-office) to create, edit, and delete articles, manage authors, and moderate content.
-      this project is not finished yet and its official Git repository is private.
-      <br/><br/>
-      <strong>Key Functionalities:</strong>
-      <ul>
-        <li>Public view of articles with a clean, responsive design</li>
-        <li>Administrator panel protected by login</li>
-        <li>CRUD operations for articles and author management</li>
-        <li>Organization of articles by categories or tags</li>
-        <li>Search engine by title or content</li>
-      </ul>
-    `,
-    technologies: ["Next.js", "Node.js", "Express.js", "EJS", "JWT"]
   }
 ];
